@@ -7,6 +7,51 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.container{
+   display: flex;
+   flex-direction: column;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.footer{
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+
+}
+.content{
+  align-self: center;
+}
+.input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  gap: 8px;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  gap: 8px;
+}
+
+.rightlinks{
+
+ justify-content: flex-end;
+}
+
+.content{
+  
+  align-content: center;
+}
+
 img {
   width: 600px;
 }
@@ -16,6 +61,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  border: 10px;
+  height: 30px;
 }
 
 input {
@@ -23,4 +70,17 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul{
+  /* This aligns all the links in one line*/
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+}
+
+a{
+    /* this removes the line under our links */
+  text-decoration: none;
+  color: gray;
 }
